@@ -1,0 +1,115 @@
+body{
+	margin: 0;
+	font-family: 'Helvetica', 'Arial', sans-serif;
+		font-size: 16px;
+		line-height: 20px;
+		text-align: justify;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+}
+
+.rectangle {
+	border-style: solid;
+	border-width: 20px;
+	border-color: white;
+	border-radius: 50px;
+	background-color: floralwhite;
+}
+
+h1 {
+	font-family: 'Oleo Script';
+	font-size: 120px;
+	line-height: 100px;
+}
+
+h2{
+	font-family: 'Oleo Script';
+	font-size: 30px;
+	color: navy;
+	margin: 40px 0 0 10px;
+	text-align: center;
+}
+
+h3 {
+	font-family: 'Oleo Script';
+	font-size: 20px;
+	text-align: left;
+}
+
+
+body, html {
+    height: 100%;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Users/mayank/UXE/UX&tW/Assignment 2/Images/peaches.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  text-decoration: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 16px;
+}
+
+.hero-text button {
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: floralwhite;
+  text-align: center;
+  cursor: pointer;
+}
+
+main{
+	max-width: 800px;
+	margin: 0 auto;
+	padding:20px;
+}
+
+Main img{
+	max-width: 100%;
+}
+
+
+
+a{
+	color: coral;
+	text-decoration: none;
+}
+
+a:hover{
+	color: navy;
+}
+
+Footer{
+	background-color: coral;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+Footer p{
+	margin: 0;
+}
+
+p.caption{
+	color: lightgray;
+	font-style: italic;
+	margin-top: 0;
+}
